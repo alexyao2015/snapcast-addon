@@ -11,13 +11,10 @@ arch:
   - amd64
 map:
   - addon_config:rw
-ingress: true
-ingress_port: 1780
-ingress_stream: true
 ports:
   1704/tcp: 1704
   1705/tcp: null
-  1780/tcp: 1780
+  1780/tcp: null
   4953/tcp: null
 ports_description:
   1704/tcp: Snapcast Client TCP
