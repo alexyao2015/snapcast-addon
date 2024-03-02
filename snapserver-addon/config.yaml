@@ -1,6 +1,6 @@
 ---
 name: Snapcast Server
-version: "0.27.0-r4"
+version: "0.27.0-r4-v1"
 slug: snapserver
 panel_icon: mdi:music-circle
 description: Snapcast Server is an open-source multi-room audio solution
