@@ -23,7 +23,7 @@ RUN \
         gstreamer1.0-plugins-ugly \
         gstreamer1.0-pulseaudio \
         mopidy
-RUN echo "1" \
+RUN echo "11" \
     && apt-get install -y git \
     && curl -L \
         -o gst-plugin-spotify.deb \
