@@ -1,0 +1,25 @@
+---
+name: Snapcast Server
+version: "0.27.0"
+slug: snapserver
+panel_icon: mdi:music-circle
+description: Snapcast Server is an open-source multi-room audio solution
+url: https://github.com/alexyao2015/snapcast-addon
+init: false
+arch:
+  - amd64
+map:
+  - addon_config
+ingress: true
+ingress_port: 1780
+ingress_stream: true
+ports:
+  1704/tcp: 1704
+  1705/tcp: null
+  1780/tcp: 1780
+  4953/tcp: null
+ports_description:
+  1704/tcp: Snapcast Client TCP
+  1705/tcp: Snapcast TCP RPC API
+  1780/tcp: Snapcast Web UI
+  4953/tcp: Snapcast TCP Stream

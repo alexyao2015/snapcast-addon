@@ -1,0 +1,33 @@
+---
+name: Mopidy
+version: dev
+slug: mopidy
+panel_icon: mdi:music-circle
+description: Mopidy is an extensible music server
+url: https://github.com/alexyao2015/snapcast-addon
+ingress: true
+ingress_entry: iris/
+ingress_stream: true
+init: false
+arch:
+  - amd64
+auth_api: true
+map:
+  - config
+  - share:rw
+  - ssl
+  - media
+options:
+  system_packages: []
+  python_packages: []
+  settings: []
+schema:
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  system_packages:
+    - str
+  python_packages:
+    - str
+  settings:
+    - name: str
+      value: str
+  leave_front_door_open: bool?

@@ -1,0 +1,10 @@
+Mopidy-Iris
+Mopidy-Local
+Mopidy-Mobile
+Mopidy-MPD
+Mopidy-Scrobbler
+Mopidy-TuneIn
+git+https://github.com/mopidy/mopidy-spotify.git@main#egg=mopidy-spotify
+Mopidy-Youtube
+ytmusicapi
+youtube-dl
