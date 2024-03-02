@@ -7,7 +7,6 @@ description: Snapcast Server is an open-source multi-room audio solution
 url: https://github.com/alexyao2015/snapcast-addon
 image: ghcr.io/alexyao2015/music-snapserver-addon
 init: false
-ingress: true
 arch:
   - amd64
 map:
