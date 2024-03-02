@@ -5,6 +5,7 @@ slug: snapserver
 panel_icon: mdi:music-circle
 description: Snapcast Server is an open-source multi-room audio solution
 url: https://github.com/alexyao2015/snapcast-addon
+image: ghcr.io/alexyao2015/music-addons/snapserver-addon
 init: false
 arch:
   - amd64
